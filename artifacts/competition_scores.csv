@@ -1,0 +1,11 @@
+model,label,service (tuned on past),VN2 score €,order-up-to score €,hindsight best €,hindsight service
+ensemble,Ensemble,0.75,3626.4,3798.4,3626.4,0.75
+lightgbm,LightGBM (global ML),0.75,3680.2,3802.2,3680.2,0.75
+seasonal_ma,Seasonal average (VN2 benchmark),0.75,3750.8,3901.0,3736.8,0.8
+arima,ARIMA (AIC-selected),0.75,3756.8,3993.8,3756.8,0.75
+ses,Exponential smoothing,0.75,3817.0,4107.0,3817.0,0.75
+croston_sba,Croston SBA,0.75,3976.8,4041.0,3905.0,0.8
+tsb,TSB,0.7,4009.2,4433.0,3836.2,0.8
+ma13,13-week average,0.7,4277.2,4805.4,3910.4,0.833
+naive,Last week,0.6,5218.4,6039.6,5059.4,0.7
+snaive,Same week last year,0.6,5468.4,5458.6,5468.4,0.6

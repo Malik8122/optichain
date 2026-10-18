@@ -1,0 +1,3410 @@
+{
+ "FOODS_3_586/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 15.850467229247835,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 15.928509695662948,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 15.91644851508443,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 15.970652096738622,
+   "n_train": 730
+  }
+ ],
+ "FOODS_3_586/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 13.429082208500162,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 13.470063113312616,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 13.487251293025468,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 13.52002766248899,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "FOODS_3_586/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 14.060889357084811,
+   "n_train": 730,
+   "k": 28,
+   "level": 41.857142857142854
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 14.102313859513284,
+   "n_train": 730,
+   "k": 28,
+   "level": 28.678571428571427
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 14.116997711863782,
+   "n_train": 730,
+   "k": 28,
+   "level": 35.214285714285715
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 14.063173739117556,
+   "n_train": 730,
+   "k": 28,
+   "level": 37.142857142857146
+  }
+ ],
+ "FOODS_3_586/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 9.847744266115752,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 5433.391880345514
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 9.969412294293264,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 5451.319533343222
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 10.002546660501126,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 5456.163947369611
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 10.071129772507364,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 5466.140369324535
+  }
+ ],
+ "FOODS_3_586/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 12.81758787510186,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,2)",
+   "transform": "log1p",
+   "order": [
+    2,
+    1,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 199.25872494091715,
+   "bic": 222.21709360096042,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.4172139167785645
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 12.8453902357836,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,2)",
+   "transform": "log1p",
+   "order": [
+    2,
+    1,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 227.24148275663237,
+   "bic": 250.19985141667564,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.227830648422241
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 12.864894447039092,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,2)",
+   "transform": "log1p",
+   "order": [
+    2,
+    1,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 224.78475789799106,
+   "bic": 247.74312655803436,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.639470338821411
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 12.934074543784671,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,2)",
+   "transform": "log1p",
+   "order": [
+    2,
+    1,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 233.42067825958833,
+   "bic": 256.3790469196316,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.287147045135498
+  }
+ ],
+ "FOODS_3_586/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 10.639814489886906,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": -45.51460711726117,
+   "bic": -22.55623845721788,
+   "combo_scores": [
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 9.852171599188969
+    },
+    {
+     "d": 1,
+     "D": 1,
+     "order": [
+      1,
+      2,
+      0,
+      1
+     ],
+     "inner_rmse": 9.956330619302609
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 86.35880017280579
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 10.077270783625954,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": -56.89318941801868,
+   "bic": -33.93482075797539,
+   "combo_scores": [
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 13.187924654282092
+    },
+    {
+     "d": 1,
+     "D": 1,
+     "order": [
+      1,
+      2,
+      0,
+      1
+     ],
+     "inner_rmse": 13.281152138791603
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 80.7016978263855
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 10.157097910351116,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": -57.20566480415886,
+   "bic": -34.247296144115566,
+   "combo_scores": [
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 11.87077207228476
+    },
+    {
+     "d": 1,
+     "D": 1,
+     "order": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "inner_rmse": 11.925639709844113
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 92.58752250671387
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 10.189190325369918,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)(0,1,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    0,
+    1,
+    1,
+    7
+   ],
+   "aic": -43.59557802604079,
+   "bic": -25.267477470469487,
+   "combo_scores": [
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 7.842001756372848
+    },
+    {
+     "d": 1,
+     "D": 1,
+     "order": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "inner_rmse": 7.836390676649102
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 93.42769527435303
+  }
+ ],
+ "FOODS_3_586/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 14.236313115796628,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 37.59723996037042
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 14.236182302199179,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 28.137933322578043
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 14.153922179277659,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 33.87687167725428
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 14.168158879787946,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 37.199526111005376
+  }
+ ],
+ "HOUSEHOLD_1_447/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 4.873573091443341,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 4.88158826388012,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 4.9243940809476126,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 5.129729909435639,
+   "n_train": 730
+  }
+ ],
+ "HOUSEHOLD_1_447/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 5.0782262398143105,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 5.027173738324286,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 5.016983603852797,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 5.06404350818942,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "HOUSEHOLD_1_447/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 3.815842735151146,
+   "n_train": 730,
+   "k": 28,
+   "level": 9.821428571428571
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 3.817217410450806,
+   "n_train": 730,
+   "k": 28,
+   "level": 9.178571428571429
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 3.8320270281213538,
+   "n_train": 730,
+   "k": 28,
+   "level": 11.071428571428571
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 3.966560001688,
+   "n_train": 730,
+   "k": 28,
+   "level": 8.714285714285714
+  }
+ ],
+ "HOUSEHOLD_1_447/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 3.621474376732833,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3972.8645412927967
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 3.6167870402992786,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3970.973614244069
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 3.6041794116630586,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3965.875361361811
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 3.713682366619415,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 4009.5728930831397
+  }
+ ],
+ "HOUSEHOLD_1_447/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 3.7643549980603237,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)",
+   "transform": "none",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4002.647037187304,
+   "bic": 4016.42205838333,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 3.5846153467689525
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 3.388044709651516
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 6.415137052536011
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 3.7523419867492263,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4003.9797001630836,
+   "bic": 4022.346395091118,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 3.8091612853703425
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 3.798331279432493
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 8.394408226013184
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 3.774520216664591,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4009.1462964255215,
+   "bic": 4027.512991353556,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 4.484692547523815
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 4.342647491468707
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 8.607971429824829
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 3.8895150821557345,
+   "n_train": 730,
+   "spec": "ARIMA(1,1,1)",
+   "transform": "none",
+   "order": [
+    1,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4065.977983293582,
+   "bic": 4079.753004489608,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.381709098815918
+  }
+ ],
+ "HOUSEHOLD_1_447/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 3.6839160458886506,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 3990.527805861858,
+   "bic": 4018.07784825391,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      1,
+      1
+     ],
+     "inner_rmse": 3.774084340849055
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 3.5203054286176476
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 85.05531311035156
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 3.631228694216232,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 3965.7916681149663,
+   "bic": 3993.3417105070184,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "inner_rmse": 3.6959287089960977
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 3.5040166133719706
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 80.07624316215515
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 3.6583032860965585,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 3963.2028250736203,
+   "bic": 3990.7528674656724,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 4.186209940085945
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 4.095048166972264
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 101.57861065864563
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 3.741478161626956,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 4012.4779748703236,
+   "bic": 4040.0280172623757,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 26.779316425323486
+  }
+ ],
+ "HOUSEHOLD_1_447/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 3.8096989911984442,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 9.63163316638127
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 3.8240491229742317,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 9.295212264211585
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 3.8259772298818326,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 10.257424190054351
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 3.9865317234448905,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 9.253532035458228
+  }
+ ],
+ "FOODS_3_203/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 3.1507614425783506,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 3.1694269970630233,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 3.1644458315990858,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 3.1611930167956506,
+   "n_train": 730
+  }
+ ],
+ "FOODS_3_203/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 3.0491592383569506,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 3.0500663212978423,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 3.0314168706118516,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 3.040073523170022,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "FOODS_3_203/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 2.584960353706477,
+   "n_train": 730,
+   "k": 28,
+   "level": 3.0357142857142856
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 2.583408589800902,
+   "n_train": 730,
+   "k": 28,
+   "level": 3.607142857142857
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 2.589531130917894,
+   "n_train": 730,
+   "k": 28,
+   "level": 3.857142857142857
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 2.5858834467520104,
+   "n_train": 730,
+   "k": 28,
+   "level": 3.0
+  }
+ ],
+ "FOODS_3_203/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 2.3183460002118674,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3321.6647872003605
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 2.3209262751872233,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3323.2888358135197
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 2.307126944596467,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3314.5823316266356
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 2.327399227682861,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 3327.3550384692767
+  }
+ ],
+ "FOODS_3_203/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 2.554121872971565,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,1)",
+   "transform": "log1p",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 1317.9996685398162,
+   "bic": 1340.9648912105283,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 7.039082765579224
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 2.5659843909125333,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)",
+   "transform": "log1p",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 1327.9522216901116,
+   "bic": 1355.5104888949663,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 3.281196117401123
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 2.554845205612793,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,1)",
+   "transform": "log1p",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 1314.949325560344,
+   "bic": 1337.9145482310562,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 7.506692171096802
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 2.558822129347412,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)",
+   "transform": "log1p",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 1322.1933755320065,
+   "bic": 1345.1585982027186,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 7.42297625541687
+  }
+ ],
+ "FOODS_3_203/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 2.4291010800494672,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1256.5487465525066,
+   "bic": 1284.1070137573613,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 72.36927938461304
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 2.4100234485992735,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1262.3116640742167,
+   "bic": 1289.8699312790714,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 53.10028696060181
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 2.4089987873601006,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1247.6279904365847,
+   "bic": 1275.1862576414394,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 66.51855564117432
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 2.4290230065375837,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)(1,0,1)[7]",
+   "transform": "log1p",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1267.4321787865215,
+   "bic": 1294.9904459913762,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 64.63985443115234
+  }
+ ],
+ "FOODS_3_203/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 2.516439732029855,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 2.602619394024233
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 2.5336887321276187,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 3.6386587107604926
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 2.5291479940489827,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 3.5659803649004678
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 2.5322067424075603,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 3.3075489467394097
+  }
+ ],
+ "HOBBIES_1_189/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 10.556010386562109,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 10.63859474821441,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 10.742337046128279,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 10.834203827008135,
+   "n_train": 730
+  }
+ ],
+ "HOBBIES_1_189/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 10.305902107882716,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 10.365785831568557,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 10.419951072803208,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 10.506995627823313,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "HOBBIES_1_189/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 7.472156122189037,
+   "n_train": 730,
+   "k": 28,
+   "level": 13.5
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 7.562060566744831,
+   "n_train": 730,
+   "k": 28,
+   "level": 11.821428571428571
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 7.735459892184158,
+   "n_train": 730,
+   "k": 28,
+   "level": 9.5
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 7.800569863612817,
+   "n_train": 730,
+   "k": 28,
+   "level": 8.142857142857142
+  }
+ ],
+ "HOBBIES_1_189/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 7.374962278324449,
+   "n_train": 730,
+   "form": "ETS(A,N,N)",
+   "aicc": 4994.895865947696
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 7.476717084979412,
+   "n_train": 730,
+   "form": "ETS(A,N,N)",
+   "aicc": 5014.902269093315
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 7.540055644492288,
+   "n_train": 730,
+   "form": "ETS(A,N,N)",
+   "aicc": 5027.218476702269
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 7.614132336021057,
+   "n_train": 730,
+   "form": "ETS(A,N,N)",
+   "aicc": 5041.492132433025
+  }
+ ],
+ "HOBBIES_1_189/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 7.373444444037743,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4989.910198198306,
+   "bic": 4999.093545662323,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 10.193135709890127
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 9.937202687213802
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 5.569443702697754
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 7.4500410837975055,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 5015.4984607941915,
+   "bic": 5038.463683464904,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.554024749450631
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.686533222082934
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 11.455236434936523
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 7.557955960133455,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 5028.467049686655,
+   "bic": 5051.432272357367,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.653077314799766
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 8.74583956982925
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 10.05735969543457
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 7.627007668928586,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 5041.406512267173,
+   "bic": 5064.371734937885,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 6.11223309067066
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 6.520954019920828
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 10.871004819869995
+  }
+ ],
+ "HOBBIES_1_189/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 7.373444444037743,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)(0,0,0)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "aic": 4989.910198198306,
+   "bic": 4999.093545662323,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 10.193135709890127
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 9.937202687213802
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 66.51968812942505
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 7.4500410837975055,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)(0,0,0)[7]",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "aic": 5015.4984607941915,
+   "bic": 5038.463683464904,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.554024749450631
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.686533222082934
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 76.34234642982483
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 7.557955960133455,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)(0,0,0)[7]",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "aic": 5028.467049686655,
+   "bic": 5051.432272357367,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 8.653077314799766
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 8.74583956982925
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 80.7775707244873
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 7.627007668928586,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,2)(0,0,0)[7]",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "seasonal_order": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "aic": 5041.406512267173,
+   "bic": 5064.371734937885,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 6.11223309067066
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 6.520954019920828
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 74.54760909080505
+  }
+ ],
+ "HOBBIES_1_189/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 7.423497680211571,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 12.830100367640167
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 7.549071377872198,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 10.418485554398048
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 7.593157622015328,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 9.712322013249068
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 7.638771729738556,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 7.90332993431214
+  }
+ ],
+ "HOBBIES_1_030/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 7.4355945185049865,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 7.551196999925724,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 7.766217157906324,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 7.672837023131607,
+   "n_train": 730
+  }
+ ],
+ "HOBBIES_1_030/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 7.281249721742377,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 7.520097553882995,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 7.575073777765416,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 7.605959663753089,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "HOBBIES_1_030/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 5.3584227205381785,
+   "n_train": 730,
+   "k": 28,
+   "level": 8.678571428571429
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 5.524390060963406,
+   "n_train": 730,
+   "k": 28,
+   "level": 8.0
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 5.537714954812246,
+   "n_train": 730,
+   "k": 28,
+   "level": 7.571428571428571
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 5.539836419996829,
+   "n_train": 730,
+   "k": 28,
+   "level": 5.535714285714286
+  }
+ ],
+ "HOBBIES_1_030/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 5.098037293864739,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 4472.147153626036
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 5.229255466602739,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 4509.250554722656
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 5.347360747091619,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 4541.858502994341
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 5.332478470427116,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 4537.789502038109
+  }
+ ],
+ "HOBBIES_1_030/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 5.372221788644866,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4522.346733245886,
+   "bic": 4531.530080709903,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 7.791365930169438
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 7.513010617363552
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 6.687812089920044
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 5.511193686899847,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4558.444569517676,
+   "bic": 4567.6279169816935,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 7.732701494877237
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 7.7022016175401955
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 6.486838102340698
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 5.554543638739135,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 4593.111955727798,
+   "bic": 4602.295303191815,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 1.654916763305664
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 5.539348644217541,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)",
+   "transform": "none",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 4582.133898739812,
+   "bic": 4609.692165944667,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 5.669570790212718
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 6.281239066120248
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 10.692567825317383
+  }
+ ],
+ "HOBBIES_1_030/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 5.1865458135692535,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 4477.647947455496,
+   "bic": 4496.014642383531,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "inner_rmse": 7.450950673964036
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 7.1021170825832565
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 72.59971356391907
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 5.34414389689073,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 4515.061327557952,
+   "bic": 4533.428022485987,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "inner_rmse": 7.461619686065471
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 7.2514971125792576
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 69.52131581306458
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 5.373484527095885,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 4546.547969726724,
+   "bic": 4564.914664654759,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 22.38838219642639
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 5.431191639217485,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 4560.465553403187,
+   "bic": 4597.209909676327,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "inner_rmse": 5.880392722785985
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 6.107859944832917
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 84.23954224586487
+  }
+ ],
+ "HOBBIES_1_030/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 5.375227377597086,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 7.556628081919391
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 5.506844374405301,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 7.563770686516402
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 5.701043122162709,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 7.494120711093267
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 5.610907951336574,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 5.968574119017316
+  }
+ ],
+ "HOUSEHOLD_1_469/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 1.554232241359799,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 1.532456360413126,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 1.5112745009706048,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 1.465188181100184,
+   "n_train": 730
+  }
+ ],
+ "HOUSEHOLD_1_469/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 1.5826689295381988,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 1.554451956543062,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 1.5248064067764837,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 1.4880808139984596,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "HOUSEHOLD_1_469/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 1.1562800777638687,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.2857142857142857
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 1.1358650770338823,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.17857142857142858
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 1.1053944930611164,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.35714285714285715
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 1.0813297429665074,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.0
+  }
+ ],
+ "HOUSEHOLD_1_469/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 1.1244965417140504,
+   "n_train": 730,
+   "form": "ETS(A,Ad,A)",
+   "aicc": 2271.5473799062443
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 1.1087770537339083,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2244.7741221513156
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 1.0890875015898176,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2218.6146255461986
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 1.0581727933895877,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2176.571662192958
+  }
+ ],
+ "HOUSEHOLD_1_469/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 1.1425235904029851,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2278.4219519871613,
+   "bic": 2296.788646915196,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 1.047036939545415
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.8056328669444995
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 4.763624906539917
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 1.1257152701811035,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2250.6126366791937,
+   "bic": 2268.9793316072282,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 0.7154012810650154
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.6067077104984909
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 6.7171595096588135
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 1.098233398815429,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2226.097774748265,
+   "bic": 2244.4644696762994,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "inner_rmse": 0.6397032882261943
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.6144363669510892
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 8.518012046813965
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 1.0740372732227452,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2181.6721815783617,
+   "bic": 2190.855529042379,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.41592689436470076
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.2885248657816359
+    }
+   ],
+   "n_fits": 18,
+   "fit_seconds": 10.632177114486694
+  }
+ ],
+ "HOUSEHOLD_1_469/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 1.1358801596566968,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2272.6633764422477,
+   "bic": 2300.2134188343,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.9697353764232365
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.7969623362770398
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 69.908518075943
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 1.1202336235361272,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2244.4874214771203,
+   "bic": 2272.0374638691724,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.900916904771569
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.6336999648723427
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 83.13320088386536
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 1.0863819856263788,
+   "n_train": 730,
+   "spec": "ARIMA(2,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2218.5482886633326,
+   "bic": 2246.0983310553847,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "inner_rmse": 0.6305390379737345
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      2,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.6140970734654825
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 91.31884551048279
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 1.065472715198618,
+   "n_train": 730,
+   "spec": "ARIMA(0,1,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    1,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2176.803958376228,
+   "bic": 2195.1706533042625,
+   "combo_scores": [
+    {
+     "d": 0,
+     "D": 0,
+     "order": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "inner_rmse": 0.41592689436470076
+    },
+    {
+     "d": 1,
+     "D": 0,
+     "order": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "inner_rmse": 0.25334165026980565
+    }
+   ],
+   "n_fits": 72,
+   "fit_seconds": 89.26200795173645
+  }
+ ],
+ "HOUSEHOLD_1_469/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 1.1871078418474756,
+   "n_train": 730,
+   "alpha": 0.2,
+   "level": 0.3584997807156284
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 1.1339627500396687,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 0.4043791876222544
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 1.1166053892992003,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 0.46226357717304417
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 1.0949869958414633,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 0.4055412887160288
+  }
+ ],
+ "FOODS_3_242/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 1.2792530399385587,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 1.3131183630545065,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 1.3507098169489236,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 1.3862938720157705,
+   "n_train": 730
+  }
+ ],
+ "FOODS_3_242/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 1.287239210720172,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 1.3143531506800705,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 1.353751000147777,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 1.360375832863479,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "FOODS_3_242/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 0.9509910492809842,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.7857142857142857
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 0.9599080601409096,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.5
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 0.9974903460799532,
+   "n_train": 730,
+   "k": 28,
+   "level": 1.1071428571428572
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 0.9988873978033356,
+   "n_train": 730,
+   "k": 28,
+   "level": 1.0
+  }
+ ],
+ "FOODS_3_242/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 0.9128587324869067,
+   "n_train": 730,
+   "form": "ETS(A,Ad,A)",
+   "aicc": 1967.1234277043995
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 0.9301263318341406,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 1988.2630488885345
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 0.9565816716111194,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2029.2098490410847
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 0.969861083635505,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2049.338397989305
+  }
+ ],
+ "FOODS_3_242/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 0.9344179447917683,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 1975.1999404570688,
+   "bic": 1988.979074059496,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 4.0987708568573
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 0.9470432023191089,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,0)",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "seasonal_order": null,
+   "aic": 1993.16181250202,
+   "bic": 2002.3479015703049,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.2039525508880615
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 0.9787473531098815,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,0)",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "seasonal_order": null,
+   "aic": 2039.7114498258543,
+   "bic": 2048.897538894139,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 2.0372183322906494
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 0.9819567280302296,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)",
+   "transform": "none",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 2061.9661369860555,
+   "bic": 2089.52440419091,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 4.857306241989136
+  }
+ ],
+ "FOODS_3_242/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 0.9354764871861374,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1974.595881322129,
+   "bic": 1997.561103992841,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 32.938804149627686
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 0.9431046581107775,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,0)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 1987.6170290717507,
+   "bic": 2005.9892072083205,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 39.65990114212036
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 0.9715524172894506,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,0)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2026.5450916193392,
+   "bic": 2044.917269755909,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 44.92266607284546
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 0.9810449062044484,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,0)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2052.462044980127,
+   "bic": 2070.8342231166966,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 53.02041983604431
+  }
+ ],
+ "FOODS_3_242/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 0.9650145997294219,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 0.726446678461714
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 0.9632352587836135,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 0.5428886380963399
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 0.9823860995797733,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 0.831149852778295
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 1.0015278335584044,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 0.8775292432104751
+  }
+ ],
+ "HOUSEHOLD_1_046/naive": [
+  {
+   "origin_d": 1800,
+   "model": "naive",
+   "sigma": 2.2268470393418394,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1828,
+   "model": "naive",
+   "sigma": 2.315037026371394,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1856,
+   "model": "naive",
+   "sigma": 2.3265627814132457,
+   "n_train": 730
+  },
+  {
+   "origin_d": 1885,
+   "model": "naive",
+   "sigma": 2.3230224860098847,
+   "n_train": 730
+  }
+ ],
+ "HOUSEHOLD_1_046/snaive": [
+  {
+   "origin_d": 1800,
+   "model": "snaive",
+   "sigma": 2.2052370710241305,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1828,
+   "model": "snaive",
+   "sigma": 2.271965168337992,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1856,
+   "model": "snaive",
+   "sigma": 2.265869195000454,
+   "n_train": 730,
+   "m": 7
+  },
+  {
+   "origin_d": 1885,
+   "model": "snaive",
+   "sigma": 2.267699707641805,
+   "n_train": 730,
+   "m": 7
+  }
+ ],
+ "HOUSEHOLD_1_046/ma28": [
+  {
+   "origin_d": 1800,
+   "model": "ma28",
+   "sigma": 1.5759044048723647,
+   "n_train": 730,
+   "k": 28,
+   "level": 1.1785714285714286
+  },
+  {
+   "origin_d": 1828,
+   "model": "ma28",
+   "sigma": 1.629374119388009,
+   "n_train": 730,
+   "k": 28,
+   "level": 1.6071428571428572
+  },
+  {
+   "origin_d": 1856,
+   "model": "ma28",
+   "sigma": 1.6333953389057116,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.8928571428571429
+  },
+  {
+   "origin_d": 1885,
+   "model": "ma28",
+   "sigma": 1.6348035687191884,
+   "n_train": 730,
+   "k": 28,
+   "level": 0.8928571428571429
+  }
+ ],
+ "HOUSEHOLD_1_046/ets": [
+  {
+   "origin_d": 1800,
+   "model": "ets",
+   "sigma": 1.5131992284868405,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2698.7880582260996
+  },
+  {
+   "origin_d": 1828,
+   "model": "ets",
+   "sigma": 1.5590512931128682,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2742.3710831063827
+  },
+  {
+   "origin_d": 1856,
+   "model": "ets",
+   "sigma": 1.5632975945074998,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2746.342198495082
+  },
+  {
+   "origin_d": 1885,
+   "model": "ets",
+   "sigma": 1.5621314500923267,
+   "n_train": 730,
+   "form": "ETS(A,N,A)",
+   "aicc": 2745.2527026845137
+  }
+ ],
+ "HOUSEHOLD_1_046/arima": [
+  {
+   "origin_d": 1800,
+   "model": "arima",
+   "sigma": 1.5240834391332243,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)",
+   "transform": "none",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": null,
+   "aic": 2696.141585490155,
+   "bic": 2723.6998526950097,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 5.8017332553863525
+  },
+  {
+   "origin_d": 1828,
+   "model": "arima",
+   "sigma": 1.5828847156191492,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2743.6142425859616,
+   "bic": 2761.9864207225314,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 8.202574014663696
+  },
+  {
+   "origin_d": 1856,
+   "model": "arima",
+   "sigma": 1.5866143369842531,
+   "n_train": 730,
+   "spec": "ARIMA(1,0,1)",
+   "transform": "none",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2747.670555358176,
+   "bic": 2766.042733494746,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 7.35348105430603
+  },
+  {
+   "origin_d": 1885,
+   "model": "arima",
+   "sigma": 1.5867685410336783,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": null,
+   "aic": 2750.3503746480046,
+   "bic": 2764.129508250432,
+   "combo_scores": [],
+   "n_fits": 9,
+   "fit_seconds": 4.582895755767822
+  }
+ ],
+ "HOUSEHOLD_1_046/sarima": [
+  {
+   "origin_d": 1800,
+   "model": "sarima",
+   "sigma": 1.5240834391332243,
+   "n_train": 730,
+   "spec": "ARIMA(2,0,2)(0,0,0)[7]",
+   "transform": "none",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "seasonal_order": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "aic": 2696.141585490155,
+   "bic": 2723.6998526950097,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 51.709364891052246
+  },
+  {
+   "origin_d": 1828,
+   "model": "sarima",
+   "sigma": 1.5824918063329223,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2740.86517819607,
+   "bic": 2763.830400866782,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 60.47322487831116
+  },
+  {
+   "origin_d": 1856,
+   "model": "sarima",
+   "sigma": 1.5847840439725138,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2744.2958290637926,
+   "bic": 2767.2610517345047,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 61.20873308181763
+  },
+  {
+   "origin_d": 1885,
+   "model": "sarima",
+   "sigma": 1.5839897030745445,
+   "n_train": 730,
+   "spec": "ARIMA(0,0,1)(1,0,1)[7]",
+   "transform": "none",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "seasonal_order": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "aic": 2744.421723893842,
+   "bic": 2767.3869465645544,
+   "combo_scores": [],
+   "n_fits": 36,
+   "fit_seconds": 52.53434491157532
+  }
+ ],
+ "HOUSEHOLD_1_046/croston": [
+  {
+   "origin_d": 1800,
+   "model": "croston",
+   "sigma": 1.5837637920353975,
+   "n_train": 730,
+   "alpha": 0.1,
+   "level": 1.0556957389847168
+  },
+  {
+   "origin_d": 1828,
+   "model": "croston",
+   "sigma": 1.6005443587671355,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 1.410808264520232
+  },
+  {
+   "origin_d": 1856,
+   "model": "croston",
+   "sigma": 1.6097914362992705,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 1.2226602706176588
+  },
+  {
+   "origin_d": 1885,
+   "model": "croston",
+   "sigma": 1.6063732424065407,
+   "n_train": 730,
+   "alpha": 0.05,
+   "level": 1.022190260547214
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+fact,value
+Store-product rows,599
+Stores,67
+Products,297
+Weeks in total,165
+History weeks (to week 0),157
+Competition weeks (1-8),8
+First week,2021-04-12
+Last week,2024-06-03
+Missing values,0
+Negative sales,0
+Non-integer sales,0
+Units sold in total,290618
+Weeks with zero sales,43.2%
+Weeks ending out of stock,10.6%
+Weeks before launch,7.2%
+Rows ever out of stock,80.6%

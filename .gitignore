@@ -1,0 +1,22 @@
+# Archived M5 project: the raw Kaggle files and large intermediates are never committed
+archive/m5/data/raw/
+archive/m5/data/processed/ca_1_long.parquet
+archive/m5/models/cache/
+archive/m5/models/cache_final/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+
+# Walmart M5 (Kaggle) extracts: not ours to republish
+archive/m5/data/

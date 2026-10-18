@@ -1,0 +1,17 @@
+{
+ "HYPOTHETICAL": true,
+ "lead_time": 4,
+ "cover_days": 7,
+ "csl": 0.95,
+ "holding_rate_annual": 0.25,
+ "shortage_penalty_rate": 0.5,
+ "order_cost": 5.0,
+ "case_pack": 1,
+ "review_days": 1,
+ "z": 1.6448536269514722,
+ "forecast_model": "auto",
+ "default_model": "snaive",
+ "baseline_window": 28,
+ "warmup_days": 7,
+ "include_fixed_models": true
+}

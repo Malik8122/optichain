@@ -1,0 +1,55 @@
+{
+  "plan_model": "ensemble",
+  "plan_service": 0.75,
+  "plan_score": 3626.4,
+  "plan_setup": 913.8,
+  "best_forecast_model": "lightgbm",
+  "benchmark_score": 4334.0,
+  "setup": 913.8,
+  "winner_score": 3763.2,
+  "ranking": [
+    [
+      "1st place",
+      3763.2
+    ],
+    [
+      "2nd place",
+      3764.6
+    ],
+    [
+      "3rd place",
+      3791.6
+    ],
+    [
+      "4th place",
+      3794.4
+    ],
+    [
+      "5th place",
+      3824.4
+    ],
+    [
+      "VN2 benchmark",
+      4334.0
+    ]
+  ],
+  "best_service": {
+    "arima": 0.75,
+    "croston_sba": 0.75,
+    "ensemble": 0.75,
+    "lightgbm": 0.75,
+    "ma13": 0.7,
+    "naive": 0.6,
+    "seasonal_ma": 0.75,
+    "ses": 0.75,
+    "snaive": 0.6,
+    "tsb": 0.7
+  },
+  "rows": 599,
+  "stores": 67,
+  "products": 297,
+  "weeks": 165,
+  "history_weeks": 157,
+  "first_week": "2021-04-12",
+  "last_week": "2024-06-03"
+}

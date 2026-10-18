@@ -1,0 +1,17 @@
+item_id,model,selected,origins_with_arch_effects,origins_garch_eligible,garch_valid_fits,score80_const,score80_garch,score95_const,score95_garch,use_garch,reason,score_gain_pct,alpha_significant_share,recommend_garch
+FOODS_3_203,ets,True,4,4,4.0,8.076725652200869,8.08560393533865,10.06423358291121,10.05329810985571,False,GARCH does not improve held-out interval scores,-0.0006337492857388938,1.0,False
+FOODS_3_203,sarima,False,4,4,4.0,7.907502059392583,7.90122776326205,11.947321730117206,11.996449129780562,False,GARCH does not improve held-out interval scores,-0.16592699282463874,1.0,False
+FOODS_3_242,ets,False,0,0,,,,,,False,no ARCH effects,,,False
+FOODS_3_242,sarima,True,0,0,,,,,,False,no ARCH effects,,,False
+FOODS_3_586,ets,True,4,4,4.0,36.91266020740074,36.243628560187446,56.13026723546676,54.450820425853635,True,GARCH improves interval scores,2.402262045677489,0.0,False
+FOODS_3_586,sarima,False,4,4,4.0,40.25777716630807,40.692387995526055,65.16518671612145,68.14478663083455,False,GARCH does not improve held-out interval scores,-2.8259748926744543,1.0,False
+HOBBIES_1_030,ets,True,0,0,,,,,,False,no ARCH effects,,,False
+HOBBIES_1_030,sarima,False,0,0,,,,,,False,no ARCH effects,,,False
+HOBBIES_1_189,ets,True,0,0,,,,,,False,no ARCH effects,,,False
+HOBBIES_1_189,sarima,False,3,3,3.0,31.50714221570347,40.238954523039446,45.674555159585196,105.16556774476788,False,GARCH does not improve held-out interval scores,-78.9817731133669,0.0,False
+HOUSEHOLD_1_046,ets,True,0,0,,,,,,False,no ARCH effects,,,False
+HOUSEHOLD_1_046,sarima,False,0,0,,,,,,False,no ARCH effects,,,False
+HOUSEHOLD_1_447,ets,True,3,3,3.0,16.935801071147363,16.8500856219306,23.85609055004258,23.452428705782534,True,GARCH improves interval scores,1.0990951144895733,0.3333333333333333,False
+HOUSEHOLD_1_447,sarima,False,1,1,0.0,12.683050935290444,13.242919226317165,15.86774062654081,17.85151799623758,False,GARCH does not improve held-out interval scores,-8.45812764005741,0.0,False
+HOUSEHOLD_1_469,ets,False,0,0,,,,,,False,no ARCH effects,,,False
+HOUSEHOLD_1_469,sarima,True,1,0,,,,,,False,ARCH effects but zero-heavy (gate),,,False

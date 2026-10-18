@@ -1,0 +1,249 @@
+{
+  "stationarity": [
+    {
+      "series": "original",
+      "ADF statistic": "-3.5648915728573005",
+      "ADF p-value": "0.006468806706503921",
+      "ADF lags used": "5",
+      "ADF 5% critical": "-2.880878382771059",
+      "ADF says": "stationary",
+      "KPSS statistic": "0.5958043954208678",
+      "KPSS p-value": "0.023017782234466558",
+      "KPSS says": "not stationary",
+      "verdict": "borderline (tests disagree)"
+    },
+    {
+      "series": "log(1+y)",
+      "ADF statistic": "-6.105613864972474",
+      "ADF p-value": "9.601127275890836e-08",
+      "ADF lags used": "0",
+      "ADF 5% critical": "-2.8802520918255534",
+      "ADF says": "stationary",
+      "KPSS statistic": "0.7656930674916965",
+      "KPSS p-value": "0.01",
+      "KPSS says": "not stationary",
+      "verdict": "borderline (tests disagree)"
+    },
+    {
+      "series": "1st difference",
+      "ADF statistic": "-10.903567927759509",
+      "ADF p-value": "1.1430177736620835e-19",
+      "ADF lags used": "3",
+      "ADF 5% critical": "-2.880749791423677",
+      "ADF says": "stationary",
+      "KPSS statistic": "0.28634702594766065",
+      "KPSS p-value": "0.1",
+      "KPSS says": "stationary",
+      "verdict": "stationary"
+    },
+    {
+      "series": "log, 1st difference",
+      "ADF statistic": "-10.093460533399496",
+      "ADF p-value": "1.1065093364721589e-17",
+      "ADF lags used": "3",
+      "ADF 5% critical": "-2.880749791423677",
+      "ADF says": "stationary",
+      "KPSS statistic": "0.34596982056905273",
+      "KPSS p-value": "0.1",
+      "KPSS says": "stationary",
+      "verdict": "stationary"
+    },
+    {
+      "series": "seasonal difference (52)",
+      "ADF statistic": "-3.8832828292771957",
+      "ADF p-value": "0.0021613795499825046",
+      "ADF lags used": "2",
+      "ADF 5% critical": "-2.8903209639580556",
+      "ADF says": "stationary",
+      "KPSS statistic": "0.951949649336994",
+      "KPSS p-value": "0.01",
+      "KPSS says": "not stationary",
+      "verdict": "borderline (tests disagree)"
+    }
+  ],
+  "d": 0,
+  "strength": {
+    "trend strength": 0.6093208382221316,
+    "seasonal strength": 0.9300994842873525
+  },
+  "identify": {
+    "pattern": "AR",
+    "suggested p": 1,
+    "suggested d": 0,
+    "suggested q": 0,
+    "seasonal spike": true,
+    "family": "SARIMA",
+    "significant ACF lags": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      51,
+      52,
+      53
+    ],
+    "significant PACF lags": [
+      1,
+      5,
+      6,
+      47,
+      48,
+      52
+    ]
+  },
+  "best": "SARIMA(2, 0, 0)x(1, 0, 0)[52]",
+  "best_bic": "SARIMA(1, 0, 0)x(1, 0, 0)[52]",
+  "aic": [
+    {
+      "model": "SARIMA(2, 0, 0)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2379.9492081140734,
+      "BIC": 2395.230437140815,
+      "\u0394AIC": 0.0,
+      "parameters": 5
+    },
+    {
+      "model": "SARIMA(1, 0, 0)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2380.412793187751,
+      "BIC": 2392.6377764091444,
+      "\u0394AIC": 0.46358507367767743,
+      "parameters": 4
+    },
+    {
+      "model": "SARIMA(2, 0, 1)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2382.277337667145,
+      "BIC": 2400.6148124992346,
+      "\u0394AIC": 2.3281295530714488,
+      "parameters": 6
+    },
+    {
+      "model": "SARIMA(0, 0, 2)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2387.0671018854964,
+      "BIC": 2402.348330912238,
+      "\u0394AIC": 7.1178937714230415,
+      "parameters": 5
+    },
+    {
+      "model": "SARIMA(1, 0, 2)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2388.682697325299,
+      "BIC": 2407.020172157389,
+      "\u0394AIC": 8.733489211225788,
+      "parameters": 6
+    },
+    {
+      "model": "SARIMA(0, 0, 1)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2389.256763218924,
+      "BIC": 2401.4817464403172,
+      "\u0394AIC": 9.307555104850508,
+      "parameters": 4
+    },
+    {
+      "model": "SARIMA(1, 0, 1)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2391.267725643573,
+      "BIC": 2406.5489546703147,
+      "\u0394AIC": 11.318517529499786,
+      "parameters": 5
+    },
+    {
+      "model": "SARIMA(2, 0, 2)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2398.0051385151028,
+      "BIC": 2419.398859152541,
+      "\u0394AIC": 18.0559304010294,
+      "parameters": 7
+    },
+    {
+      "model": "SARIMA(0, 0, 0)x(1, 0, 0)[52]",
+      "family": "SARIMA",
+      "AIC": 2412.3808443343014,
+      "BIC": 2421.5495817503465,
+      "\u0394AIC": 32.43163622022803,
+      "parameters": 3
+    },
+    {
+      "model": "ARIMA(1, 1, 1)",
+      "family": "ARIMA",
+      "AIC": 2426.4373301943906,
+      "BIC": 2435.586898216139,
+      "\u0394AIC": 46.488122080317225,
+      "parameters": 3
+    },
+    {
+      "model": "ARIMA(1, 1, 2)",
+      "family": "ARIMA",
+      "AIC": 2428.0630608205,
+      "BIC": 2440.2624848494984,
+      "\u0394AIC": 48.11385270642677,
+      "parameters": 4
+    },
+    {
+      "model": "ARIMA(2, 1, 1)",
+      "family": "ARIMA",
+      "AIC": 2428.1397062957667,
+      "BIC": 2440.339130324765,
+      "\u0394AIC": 48.19049818169333,
+      "parameters": 4
+    }
+  ],
+  "resid_tests": {
+    "Ljung-Box p (lag 4)": 0.08844066165132365,
+    "Ljung-Box p (lag 8)": 0.011736954489334622,
+    "Ljung-Box p (lag 13)": 0.11641851612085448,
+    "Ljung-Box p (lag 26)": 0.6970579254667812,
+    "Jarque-Bera p": 1.1986603524380412e-98,
+    "ARCH-LM p": 0.0269727014450186,
+    "white noise": false,
+    "ARCH effect": true
+  },
+  "garch_params": {
+    "omega": 0.35462670359561244,
+    "alpha[1]": 0.1756081160639467,
+    "beta[1]": 0.4472945403457681
+  },
+  "garch_tests": {
+    "SARIMA residuals": {
+      "Ljung-Box p (lag 4)": 0.08844066165132365,
+      "Ljung-Box p (lag 8)": 0.011736954489334622,
+      "Ljung-Box p (lag 13)": 0.11641851612085448,
+      "Ljung-Box p (lag 26)": 0.6970579254667812,
+      "Jarque-Bera p": 1.1986603524380412e-98,
+      "ARCH-LM p": 0.0269727014450186,
+      "white noise": false,
+      "ARCH effect": true
+    },
+    "after GARCH": {
+      "Ljung-Box p (lag 4)": 0.49809033440846107,
+      "Ljung-Box p (lag 8)": 0.050904750861678345,
+      "Ljung-Box p (lag 13)": 0.25089214837798146,
+      "Ljung-Box p (lag 26)": 0.7415934823174206,
+      "Jarque-Bera p": 1.0113461235186405e-180,
+      "ARCH-LM p": 0.9554372361235132,
+      "white noise": true,
+      "ARCH effect": false
+    },
+    "after GARCH, squared": {
+      "Ljung-Box p (lag 4)": 0.9468291119039595,
+      "Ljung-Box p (lag 8)": 0.7473300733366988,
+      "Ljung-Box p (lag 13)": 0.944642312309059,
+      "Ljung-Box p (lag 26)": 0.9996908924435822,
+      "Jarque-Bera p": 0.0,
+      "ARCH-LM p": 0.9993246011163216,
+      "white noise": true,
+      "ARCH effect": false
+    }
+  },
+  "holdout_mape": 14.245670849755133,
+  "holdout_mape_snaive": 20.038038525006634,
+  "rows_white_noise": 0.9115191986644408,
+  "rows_arch": 0.09849749582637729,
+  "adf_rows_stationary": 0.9449081803005008,
+  "garch_rows_fixed": 0.847457627118644,
+  "ts_row": 277
+}

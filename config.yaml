@@ -1,0 +1,35 @@
+# OptiChain · VN2 Inventory Planning Challenge
+# Data: Vandeput, N. (2025). VN2 Inventory Planning Challenge (SupChains). CC BY 4.0.
+
+paths:
+  raw_dir: data/raw/vn2
+  artifacts_dir: artifacts
+  source_url: https://raw.githubusercontent.com/SupChains/VN2/main
+
+competition:              # the official rules (vn2_simulate.py) — real, not assumptions
+  week_0: "2024-04-08"    # last week of history before round 1
+  rounds: 6               # orders 1-6, placed before weeks 1-6
+  weeks: 8                # weeks 1-8 are played
+  lead_time_weeks: 2      # order k is on the shelf at the start of week k+2
+  holding_cost: 0.2       # EUR per unit left on the shelf at the end of a week
+  shortage_cost: 1.0      # EUR per unit of lost sales
+  benchmark_score: 4334.0 # official benchmark, weeks 3-8
+  winner_score: 3763.2    # 1st place
+
+forecast:
+  horizon: 3              # weeks k, k+1, k+2 (the arrival week of order k)
+  moving_average: 13
+  season_length: 52
+  models: [naive, ma13, snaive, seasonal_ma, ses, arima, croston_sba, tsb, lightgbm, ensemble]
+  ensemble_of: [lightgbm, ses, seasonal_ma]
+  backtest_origins: 30    # weekly origins ending 3 weeks before week 0
+  dispersion_origins: 12  # first origins: used only to estimate forecast-error spread
+  lgbm_retrain_every: 4   # weeks between LightGBM refits in the backtest
+  arima_refit_every: 8    # weeks between ARIMA order/parameter re-selection in the backtest
+
+policy:
+  samples: 1000           # Monte Carlo demand paths per store-product
+  service_grid: [0.50, 0.60, 0.70, 0.75, 0.80, 0.833, 0.85, 0.88, 0.90, 0.92, 0.94, 0.96]
+  replay_warmup: 3        # weeks simulated but not scored in the historical replay
+
+seed: 42

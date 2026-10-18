@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="36" viewBox="0 0 168 36">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5598e7"/><stop offset="1" stop-color="#199e70"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="3" width="30" height="30" rx="9" fill="url(#g)"/>
+  <path d="M8 23 L13 17 L17 20 L24 11" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="11" r="2.4" fill="#fff"/>
+  <text x="40" y="24.5" font-family="Inter, Segoe UI, sans-serif" font-size="18" font-weight="800" fill="#0f172a" letter-spacing="-0.4">Opti<tspan fill="#2a78d6">Chain</tspan></text>
+</svg>

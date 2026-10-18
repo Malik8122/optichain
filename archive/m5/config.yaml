@@ -1,0 +1,52 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sales_file: sales_train_evaluation.csv
+  store_id: CA_1
+  max_day: 1913            # raise to 1941 only for the single final-test run
+
+series:
+  items:
+    - FOODS_3_586
+    - HOUSEHOLD_1_447
+    - FOODS_3_203
+    - HOBBIES_1_189
+    - HOBBIES_1_030
+    - HOUSEHOLD_1_469
+    - FOODS_3_242
+    - HOUSEHOLD_1_046
+
+forecast:
+  horizon: 28
+  fit_window_days: 730
+  origins: [1800, 1828, 1856, 1885]
+  models: [naive, snaive, ma28, ets, arima, sarima, croston]
+  sarima_grid: {p: [0, 1, 2], q: [0, 1, 2], P: [0, 1], Q: [0, 1], s: 7}
+  interval_levels: [0.80, 0.95]
+
+diagnostics:
+  ljung_box_lags: [7, 14, 21]
+  arch_lm_lag: 7
+  alpha: 0.05
+
+simulation_assumptions:     # HYPOTHETICAL — not Walmart data
+  lead_time_days: 4
+  review_days: 1
+  cover_days: 7
+  target_csl: 0.95
+  holding_rate_annual: 0.25
+  shortage_penalty_rate: 0.5
+  order_cost: 5.0
+  case_pack: 1
+  sensitivity:
+    lead_time_days: [2, 4, 7]
+    target_csl: [0.90, 0.95, 0.98]
+
+simulation:                 # method choices (not world assumptions)
+  forecast_model: auto      # auto = per origin, best mean RMSSE on folds already completed
+  default_model: snaive     # used at the first origin, before any fold has completed
+  baseline_window: 28       # days of history for the baseline policy's mean/std
+  warmup_days: 7            # simulated but excluded from inventory metrics
+  include_fixed_models: true
+
+seed: 42

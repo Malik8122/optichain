@@ -1,0 +1,33 @@
+origin_d,model,basis,item_id
+1800,snaive,default (no completed folds),FOODS_3_586
+1828,snaive,best mean rmsse on 1 completed fold(s),FOODS_3_586
+1856,ets,best mean rmsse on 2 completed fold(s),FOODS_3_586
+1885,ets,best mean rmsse on 3 completed fold(s),FOODS_3_586
+1800,snaive,default (no completed folds),HOUSEHOLD_1_447
+1828,ets,best mean rmsse on 1 completed fold(s),HOUSEHOLD_1_447
+1856,ets,best mean rmsse on 2 completed fold(s),HOUSEHOLD_1_447
+1885,ets,best mean rmsse on 3 completed fold(s),HOUSEHOLD_1_447
+1800,snaive,default (no completed folds),FOODS_3_203
+1828,ets,best mean rmsse on 1 completed fold(s),FOODS_3_203
+1856,ets,best mean rmsse on 2 completed fold(s),FOODS_3_203
+1885,ets,best mean rmsse on 3 completed fold(s),FOODS_3_203
+1800,snaive,default (no completed folds),HOBBIES_1_189
+1828,ets,best mean rmsse on 1 completed fold(s),HOBBIES_1_189
+1856,arima,best mean rmsse on 2 completed fold(s),HOBBIES_1_189
+1885,arima,best mean rmsse on 3 completed fold(s),HOBBIES_1_189
+1800,snaive,default (no completed folds),HOBBIES_1_030
+1828,ets,best mean rmsse on 1 completed fold(s),HOBBIES_1_030
+1856,ets,best mean rmsse on 2 completed fold(s),HOBBIES_1_030
+1885,ets,best mean rmsse on 3 completed fold(s),HOBBIES_1_030
+1800,snaive,default (no completed folds),HOUSEHOLD_1_469
+1828,ma28,best mean rmsse on 1 completed fold(s),HOUSEHOLD_1_469
+1856,croston,best mean rmsse on 2 completed fold(s),HOUSEHOLD_1_469
+1885,sarima,best mean rmsse on 3 completed fold(s),HOUSEHOLD_1_469
+1800,snaive,default (no completed folds),FOODS_3_242
+1828,sarima,best mean rmsse on 1 completed fold(s),FOODS_3_242
+1856,sarima,best mean rmsse on 2 completed fold(s),FOODS_3_242
+1885,sarima,best mean rmsse on 3 completed fold(s),FOODS_3_242
+1800,snaive,default (no completed folds),HOUSEHOLD_1_046
+1828,ets,best mean rmsse on 1 completed fold(s),HOUSEHOLD_1_046
+1856,ets,best mean rmsse on 2 completed fold(s),HOUSEHOLD_1_046
+1885,ets,best mean rmsse on 3 completed fold(s),HOUSEHOLD_1_046

@@ -1,0 +1,46 @@
+{
+ "accuracy": {
+  "order": [
+   "ets",
+   "sarima",
+   "arima",
+   "croston",
+   "ma28",
+   "snaive",
+   "naive"
+  ],
+  "names": {
+   "naive": "Naive",
+   "snaive": "Seasonal naive",
+   "ma28": "28-day average",
+   "ets": "ETS",
+   "arima": "ARIMA",
+   "sarima": "SARIMA",
+   "croston": "Croston-SBA"
+  },
+  "backtest": {
+   "arima": 0.812,
+   "croston": 0.812,
+   "ets": 0.773,
+   "ma28": 0.821,
+   "naive": 1.062,
+   "sarima": 0.779,
+   "snaive": 1.012
+  },
+  "final": {
+   "arima": 0.806,
+   "croston": 0.823,
+   "ets": 0.76,
+   "ma28": 0.834,
+   "naive": 1.362,
+   "sarima": 0.756,
+   "snaive": 1.077
+  }
+ },
+ "final": {
+  "rmsse_test": 0.752,
+  "rmsse_backtest": 0.769,
+  "cost_p1": 185,
+  "cost_p0": 219
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "created_utc": "2026-10-10T05:08:37+00:00",
+ "test_window": {
+  "first_d": 1914,
+  "last_d": 1941,
+  "dates": [
+   "2016-04-25",
+   "2016-05-22"
+  ]
+ },
+ "fit_origin_d": 1913,
+ "selected_model": {
+  "FOODS_3_203": "ets",
+  "FOODS_3_242": "sarima",
+  "FOODS_3_586": "ets",
+  "HOBBIES_1_030": "ets",
+  "HOBBIES_1_189": "ets",
+  "HOUSEHOLD_1_046": "ets",
+  "HOUSEHOLD_1_447": "ets",
+  "HOUSEHOLD_1_469": "sarima"
+ },
+ "backtest_rmsse_of_selected": {
+  "FOODS_3_203": 0.7754,
+  "FOODS_3_242": 0.878,
+  "FOODS_3_586": 0.5801,
+  "HOBBIES_1_030": 1.0352,
+  "HOBBIES_1_189": 0.8204,
+  "HOUSEHOLD_1_046": 0.7908,
+  "HOUSEHOLD_1_447": 0.8639,
+  "HOUSEHOLD_1_469": 0.4082
+ },
+ "inventory": {
+  "lead_time": 4,
+  "cover_days": 7,
+  "csl": 0.95,
+  "warmup_days": 0,
+  "policies": [
+   "P0 baseline",
+   "P1 forecast",
+   "P2 empirical",
+   "Perfect foresight"
+  ]
+ },
+ "note": "Written before any sales after d_1913 were loaded. Selection = lowest mean RMSSE over the 4 backtest folds."
+}
